@@ -1,0 +1,27 @@
+---
+swagger: "2.0"
+info:
+  version: "1.0"
+  title: "Londoners API"
+basePath: "/"
+tags:
+- name: "londoners"
+  description: "API for users in London"
+consumes:
+- "application/json"
+produces:
+- "application/json"
+paths:
+  /londoners:
+    get:
+      tags:
+      - "londoners"
+      operationId: "get_londoners"
+      parameters: []
+      responses:
+        "200":
+          description: "Success"
+        "500":
+          description: "Internal server error"
+      x-swagger-router-controller: "swagger_server.controllers.londoners_controller"
+definitions: {}
