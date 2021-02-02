@@ -69,7 +69,7 @@ To work-around the error, edit the file `/home/richard/wp-app/.tox/py38/lib/pyth
 ```
 from werkzeug.utils import cached_property
 ```
-Then restart tox.
+Then restart tox.  
 **Note:** You may see errors in the output of the tox command like this:
 ```
 ERROR:  py37: InterpreterNotFound: python3.7
