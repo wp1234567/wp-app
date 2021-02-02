@@ -2,7 +2,7 @@
 ## Overview
 This application implements a Swagger server created using the Swagger Codegen.
 The Swagger server exposes a REST API that implements the requirements listed in the [instructions](https://bpdts-test-app.herokuapp.com/instructions).
-The REST API consumes data returned by the [bpdts-test-app REST API](https://bpdts-test-app.herokuapp.com) and produces a list of users who either live in London or their current location is within 50 miles from it.
+The REST API consumes data returned by the [bpdts-test-app REST API](https://bpdts-test-app.herokuapp.com) and produces a list of users who either live in London or whose current location is within 50 miles of there.
 
 ## Requirements
 [Python 3.5.2+](https://docs.python.org/3/using/unix.html#getting-and-installing-the-latest-version-of-python)
