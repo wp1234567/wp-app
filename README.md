@@ -1,5 +1,4 @@
-# Swagger generated server
-
+# London users API
 ## Overview
 This application implements a Swagger server created using the Swagger Codegen.
 The Swagger server exposes a REST API that implements the requirements listed in the [instructions](https://bpdts-test-app.herokuapp.com/instructions).
