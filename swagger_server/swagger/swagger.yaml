@@ -22,6 +22,8 @@ paths:
         "200":
           description: "Success"
         "500":
-          description: "Internal server error"
+          description: "Internal Server Error"
+        "404":
+          description: "Not Found"
       x-swagger-router-controller: "swagger_server.controllers.londoners_controller"
 definitions: {}
