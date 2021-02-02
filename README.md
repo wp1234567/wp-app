@@ -79,5 +79,5 @@ Those error messages can be ignored as they do not cause issues to the execution
 ### Using Python
 ```
 sudo pip3 install flask_testing
-python -m unittest
+python3 -m unittest
 ```
